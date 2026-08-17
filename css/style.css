@@ -27,16 +27,20 @@ body {
     bottom: 55%;
     left: 50%;
     transform: translate(-63%, 20%);
-    height: 22%;
+    height: 18%;
+    overflow: hidden;
 }
 
 .info-pokemon {
     position: absolute;
     font-weight: 700;
     color: #aaa;
-    top: 55%;
-    left: 40.8%;
-    font-size: clamp(8px, 5vw, 25px);
+    top: 55.6%;
+    left: 20%;
+    width: 60%;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: clamp(8px, 3.5vw, 20px);
 }
 
 .pokemon-name {
